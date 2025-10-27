@@ -1,0 +1,24 @@
+form handling and working with the forms 
+handle backedn process of forms and making sure the data coming from any frontend lib, fw , templating engines ,we still handle it at the same time 
+ \
+
+
+
+
+session cookue we will ssee 
+
+
+hum log kuch bi data frontedn par browsser par rakh ske ha and jabv bhi app kuch bhi request backedn par kroge wo fe par saved data automatically backend par chla jaayega 
+cookie ter ifrontend pe hoti ha aur session tera ek taar hoti h jo connected rehti h frontedn to bakcend okay 
+
+
+
+
+
+
+story 
+ab jaise tumne frontend pe naam likha h harsh toh ye jb serve mei jaayega tnb ye naam change ho jaygea okya 
+it will convert into blob mtlb unreadable stream 
+
+tumne toh beja tha plain text par server o mila blb which is not a driectly readble text 
+ab ise  cheej ko handle karna pdega ki hum us blob ko waaps readable kr skte 

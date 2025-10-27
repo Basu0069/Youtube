@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "name": "03_npm-",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node ./script.js",
+    "chacha": "echo \"this is good\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "basuu",
+  "license": "ISC",
+  "description": ""
+}

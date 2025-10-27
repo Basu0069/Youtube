@@ -1,0 +1,56 @@
+1)intialize a prject  with npm 
+downlaod express install 
+
+
+first do npm init -y  ye file manage krti h aapke pakacge ke adar on kon si script hj okaye 
+
+2)install exrpess ----  npm  i express 
+
+
+
+
+
+
+3) settign up parsers for forms 
+
+
+4) setting up ejs for ejs pages 
+frontend hamara ejs h .... iske andar dynamic stuff likh skte ho kokay 
+do 
+npm i ejs   veryyy imp  
+
+setup ejs as a  view engines 
+
+
+ejs se ab tum kisi bhi route mei send ki jagah render likh skte ho kay 
+aur andar tumhe bs aisa koi page likhna h jo views mei ho okay 
+
+
+
+
+
+5) setting up public static files 
+
+
+ek folder create rkro public naam se 
+
+
+
+
+6) now we will learn dynamic routing here 
+dynamic routing how to get data coming from frontend at backend route 
+
+hum log kai baar kuhc routes dekhte hai unmei sirf ek hi hissa change hota h 
+ /author/harsh 
+ /author/harshita
+ /author/harshika
+ /author/harshitkabf 
+
+
+ sabse phele browser par jaoo 
+ url likhiye apna jo appko chaiye and enter dabaaiye 
+ ab us url route ko create kariye 
+ res bhejiye kuch bhi 
+ Ab usi url ko agar dynamic banaana hai toh realise kro konsa part dynamic hai aur us part ke aage route mein : lga do okay 
+ ismei mera basu vala part mera dynamic h okay 
+ 

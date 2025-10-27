@@ -1,0 +1,17 @@
+1)express js 
+express js ek npm package h  aur ye framework h
+framework -> flow mei hoga...
+manages everthing from receiving  the request and giving the response 
+
+
+2)routing bhi dekh li hamne basic level pe 
+
+
+
+3)Middle ware 
+
+piceture --> facebook --> middleware --> routes ---> response 
+middleware mei aap phle koi bhi kaam krwa skte h routes se phele jese hello world print krna... 
+
+jab bhi server request accept krta hai waha se route ke beech paunche tak agr app us request ko beech mie roktte ho and kuch perfrom krte ho to ye element middleware kehlaata hai
+

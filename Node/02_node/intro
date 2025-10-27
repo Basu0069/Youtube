@@ -1,0 +1,23 @@
+// Node.js basiccs:
+// Introduction ot node js 
+// installeding node js and npm 
+// working with modules 
+// file system opertions 
+// understanding http module 
+
+
+
+// js runtime environment h ye 
+// js se backend ni bn skta kyunki js ke pass wo functionalities nahi hai jinse backend banta h 
+// nodejs is a js runtime environment 
+// npm mei packages ke code uploade hote h toh ham vo packages use kr skte h 
+
+
+
+
+
+
+
+
+// npm init -> package.json ->  lekha jokha of the project 
+

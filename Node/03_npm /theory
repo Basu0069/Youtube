@@ -1,0 +1,59 @@
+1)npm - node package manager 
+
+node js core mein jo installed aata hai  wo kehlaata hain module 
+npm se download krte hai wo hota hai package 
+
+eg- text to speech 
+google ke already kr rakha h 
+
+
+2)Insalling adn uninstalling anyhting basics adn advanced 
+
+
+install -> npm install  packageKaNaam 
+uninstall -> npm uninstall packageKaNaam 
+
+
+
+3)Version install bhi kr skte ho aap 
+
+npm i accessibility@3.0.9
+
+
+
+
+4)dependencies - packages and packages ki dependencies 
+devdependencies - aise packages jo sirf development mei kaam aayege pr jab app ban jaayega aur upload ho jayega tb hum in packages ko use ni kr rhe honge 
+
+
+  eg-  npm i nodemon --save-dev
+
+
+
+5) kai baar aap koi script chlate ho aur usmei aap likhte ho ye command  
+npm start 
+npm run dev 
+npm run concurrent 
+
+
+npm ke sath agr run likga toh mtlb we have to find it in the script.. 
+
+start test 
+
+
+
+ab jaise tu package.json mei dund scrpit hogi 
+waha start aur test vali script teri npm start ya npm test krke chlege.. 
+but teri chacha vali script npm run chacha krke hi chlegiiii okay remember this 
+
+
+<!-- colorful packages ke liye install chalk pakcage 
+ -->
+
+
+
+
+
+
+
+
