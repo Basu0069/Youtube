@@ -11,33 +11,40 @@
 <body class="bg-zinc-900">
 
     <div class="form p-10 text-white">
-        <form action="">
+        <form action="/create" method="post">
+            <!-- input ka dat aap tbhi dekh skte ho jab aapne ise name diya ho okaie -->
             <input class="block px-5 w-full rounded-md outline-none py-2 bg-zinc-800" type="text"
-                placeholder="Title goes here..">
+                placeholder="Title goes here.." name="title">
             <textarea class="block px-5 w-full rounded-md outline-none py-2 mt-2 resize-none bg-zinc-800"
-                placeholder="Write your task details here..."></textarea>
+                placeholder="Write your task details here..." name="details" ></textarea>
             <input class="mt-2 bg-blue-600 px-5 py-2 rounded-md" type="submit" value="Create Task">
         </form>
     </div>
 
     <div class="flex gap-3 flex-wrap p-10">
-        <div class="tasks w-72 px-3 py-4  hiddenrounded-md bg-zinc-800">
-            <h1 class="text-white text-3xl tracking-tighter">Some task goes here</h1>
-            <a class="text-blue-600 inline-block mt-3" href="">Read More</a>
-        </div>
+        
 
-        <div class="tasks w-72 px-3 py-4 hidden rounded-md bg-zinc-800">
-            <h1 class="text-white text-3xl tracking-tighter">Some task goes here</h1>
-            <a class="text-blue-600 inline-block mt-3" href="">Read More</a>
-        </div>
+        <!-- hamne yaha files ka data beja hua h whihc is array  index naam se okaye-->
+         <!-- luch bhi logic buildinig code ke liye we use <%%> -->
+        <% if(files.length > 0){ %> 
+        <% files.forEach(function(val){ %>
+            <div class="tasks w-72 px-3 py-4  hrounded-md bg-zinc-800">
+                <h1 class="text-white text-3xl tracking-tighter"><%= val %></h1>
+                <a class="text-blue-600 inline-block mt-3" href="/file/<%= val %>">Read More</a>
 
-        <div class="tasks w-72 px-3 py-4  hiddenrounded-md bg-zinc-800">
-            <h1 class="text-white text-3xl tracking-tighter">Some task goes here</h1>
-            <a class="text-blue-600 inline-block mt-3" href="">Read More</a>
-        </div>
+            </div>
+
+            <% }) %> 
+        <% } else { %> 
+            <h3 class="text-zinc-600">NO tasks yet </h3>
+        <% } %> 
+
+        <!-- ab ham jitni bhi files create krege files folder mei jaake utni baar task bnaegege okie  -->
+
+     
     </div>
 
-    <h3 class="text-zinc-600">NO tasks  yet </h3>
+   
 
 </body>
 
